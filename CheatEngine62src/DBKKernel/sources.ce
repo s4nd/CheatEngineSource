@@ -1,4 +1,4 @@
-TARGETNAME=dbk
+TARGETNAME=kopeah
 TARGETPATH=obj
 TARGETTYPE=DRIVER
 AMD64_SOURCES=dbkfunca.asm vmxhelpera.asm debuggera.asm vmxoffloada.asm ultimapa.asm

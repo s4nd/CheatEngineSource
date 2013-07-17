@@ -429,7 +429,7 @@ Return Value:
 #endif
 
 
-    //hideme(DriverObject); //ok, for those that see this, enabling this WILL fuck up try except routines, even in usermode you'll get a blue sreen
+    hideme(DriverObject); //ok, for those that see this, enabling this WILL fuck up try except routines, even in usermode you'll get a blue sreen
 
 	DbgPrint("Initializing debugger\n");
 	debugger_initialize();
